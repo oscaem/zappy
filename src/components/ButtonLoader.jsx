@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-
+import audio from "./../../images/static/success.mp3"
 
 export default class ButtonLoader extends Component {
   state = {
@@ -23,12 +23,12 @@ export default class ButtonLoader extends Component {
   };
 
   completeTransaction = () => {
-    var audio = new Audio('./../../images/static/success.mp3');
+    var beep = new Audio(audio);
     this.setState({ loading: false });
     let popup = document.querySelector(".popup");
     let close = document.querySelector(".close");
     popup.classList.add('active');
-    audio.play();
+    beep.play();
     
 
     close.onclick = function() {

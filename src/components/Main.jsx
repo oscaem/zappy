@@ -94,6 +94,8 @@ const Main = () => {
     };
 
     const handlerChange = () => {
+      let transamount = document.getElementByIdBy('Amount');
+       new document.getElementById('payed').innerHTML = transamount.value;
        new giveTotal();
     }
 
@@ -111,7 +113,7 @@ const Main = () => {
                 <AiOutlineCheckCircle fontSize={100} className="text-green-400 items-center mb-2"/>
             </div>
             <h1 className="font-bold text-zap-black text-xl text-center">Remittance Successfull</h1><br />
-            <p className="text-left px-0 md:px-14 md:text-center mb-5">You just sent <span className="text-zap-black">740 USD</span> (93.650,03 ARS) to <span className="text-zap-black">ARGENTINIA</span> and saved <span className="text-zap-black">14,24$</span> in fees.</p>
+            <p className="text-left px-0 md:px-14 md:text-center mb-5">You just sent <span id="payed" className="text-zap-black">750 USD</span> (93.650,03 ARS) to <span className="text-zap-black">ARGENTINIA</span> and saved <span className="text-zap-black">14,24$</span> in fees.</p>
             <label htmlFor="receipt" className="text-left text-gray-400">Claim your payment with this hash</label>
             <input id="receipt" read-only className="rounded-lg text-center text-s read-only disabled w-full mt-2 mb-2 border-gray-300 bg-[#e6e1e1]" type="text" value={'5x2491edhf19192fh91dskd51919dek11941ee9EBC'}/>
   
