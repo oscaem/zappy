@@ -29,7 +29,7 @@ const Service = () => (
         <p className="text-left my-2 text-gray-500 font-light text-base pb-10 md:pb-0 md:pr-10">
           Leveraging the power of Blockchain and Zero-Knowledge Rollups to revolutionise International Remittance without On/Off Ramps.
           <br />
-          <a className="text-yellow-500 text-xs font-bold" href="https://www.youtube.com/watch?v=4FFPcbcirMA&ab_channel=BozzyOfficial">Learn more about how we scale remittance with zkRollups.</a>
+          <a className="text-[#F3B755] text-xs font-bold" href="https://www.youtube.com/watch?v=4FFPcbcirMA&ab_channel=BozzyOfficial">Learn more about how we scale remittance with zkRollups.</a>
         </p>
       </div>
 

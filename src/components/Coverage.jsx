@@ -1,5 +1,7 @@
 import React, { useContext } from "react";
 
+import map from "./../../images/countries.png"
+
 const Coverage = () => {
 
   return (
@@ -10,10 +12,10 @@ const Coverage = () => {
                 Supported Countries
                 </h3>
                 <p className="text-center my-2 text-gray-500 font-light px-10 md:px-50 lg:px-60 xl:px-96">
-                We aggregate multiple local methods of payment to offer the best price, UX, and broadest coverage, not just cards. <a href="https://www.youtube.com/watch?v=4FFPcbcirMA&ab_channel=BozzyOfficial" className="font-bold text-yellow-500">See Full List.</a>
+                We aggregate multiple local methods of payment to offer the best price, UX, and broadest coverage, not just cards. <a href="https://www.youtube.com/watch?v=4FFPcbcirMA&ab_channel=BozzyOfficial" className="font-bold text-[#F3B755]">See Full List.</a>
                 </p>
                 <div>
-                <img src="./images/countries.png" alt="" />
+                <img src={map} alt="" />
                 </div>
             </div>
         </div>

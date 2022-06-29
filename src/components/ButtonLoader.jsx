@@ -23,7 +23,7 @@ export default class ButtonLoader extends Component {
   };
 
   completeTransaction = () => {
-    var audio = new Audio('./images/static/success.mp3');
+    var audio = new Audio('./../../images/static/success.mp3');
     this.setState({ loading: false });
     let popup = document.querySelector(".popup");
     let close = document.querySelector(".close");
