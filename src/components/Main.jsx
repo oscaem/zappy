@@ -497,25 +497,25 @@ const Main = () => {
           <div className="payment-methods grid-cols-2 mt-7 grid md:hidden">
             <div className="payment-method">
               <div className="payment-method-image-container">
-                <img src="./images/visa.svg" alt="Visa Payment Option" />
+                <img src={visa} alt="Visa Payment Option" />
               </div>
               <span className="payment-method-text">VISA</span>
             </div>
             <div className="payment-method">
               <div className="payment-method-image-container">
-                <img src="./images/mastercard.svg" alt="Mastercard Payment Option" />
+                <img src={mastercard} alt="Mastercard Payment Option" />
               </div>
               <span className="payment-method-text">Mastercard</span>
             </div>
             <div className="payment-method">
               <div className="payment-method-image-container">
-                <img src="./images/apple-pay.svg" alt="Apple Pay Payment Option" />
+                <img src={applepay} alt="Apple Pay Payment Option" />
               </div>
               <span className="payment-method-text">Apple Pay</span>
             </div>
             <div className="payment-method">
               <div className="payment-method-image-container">
-                <img src="./images/transfer-manual.svg" alt="Manual Bank Transfer Payment Option" />
+                <img src={banktransfer} alt="Manual Bank Transfer Payment Option" />
               </div>
               <span className="payment-method-text">Bank Transfer</span>
             </div>
